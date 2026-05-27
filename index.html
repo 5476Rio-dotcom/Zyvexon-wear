@@ -95,16 +95,20 @@
 
         /* --- BUTTONS --- */
         .btn {
-            display: inline-block;
-            padding: 12px 30px;
-            font-weight: 600;
-            text-transform: uppercase;
-            border-radius: 4px;
-            transition: var(--transition);
-            cursor: pointer;
-            font-family: 'Montserrat', sans-serif;
-            border: 2px solid transparent;
-        }
+    display: inline-block;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: var(--transition);
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
         .btn-primary {
             background-color: var(--accent);
             color: var(--primary-dark);
